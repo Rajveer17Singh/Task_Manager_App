@@ -17,7 +17,7 @@ The *Task Manager Application* is a comprehensive productivity tool designed to 
 - *Backend*: Node.js with Express.js
 - *Database*: MongoDB
 - *Authentication*: JSON Web Tokens (JWT)
-- *Styling*: CSS
+- *Styling*: Tailwind CSS
 - *API Testing*: ThunderAPI (for backend API testing)
 
 ## Prerequisites
@@ -42,15 +42,17 @@ git clone https://github.com/Rajveer17Singh/Task_Manager_App.git
 Install dependencies for both the client and server:
 
 For the Backend (server):
-Navigate to the server folder and install the required dependencies:
+Navigate to the backend folder and install the required dependencies:
 
 ```bash
 npm install
+```
+
 For the Frontend (client):
 Navigate to the client folder and install the necessary dependencies:
-```
+
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
@@ -70,7 +72,7 @@ Start the Backend:
 Navigate to the root of the server directory and run:
 
 ```bash
-npm run dev
+modemon app.js
 This will start the backend server.
 ```
 ## Start the Frontend:
@@ -78,7 +80,7 @@ Next, navigate to the client directory and run:
 
 ```bash
 cd client
-npm start
+npm run start
 This will start the React frontend.
 ```
 ## Access the Application

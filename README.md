@@ -60,7 +60,7 @@ npm install
 In the server folder, create a .env file (if not already provided) with the following environment variables:
 
 ``` .env
-PORT = 9000
+PORT = 1000
 DB_URL = "mongodb+srv://raj123:raj123@cluster0.7gtum.mongodb.net/TaskManagerApp"
 JWT_SECRET = "rajTM"
 ```
@@ -72,7 +72,7 @@ Start the Backend:
 Navigate to the root of the server directory and run:
 
 ```bash
-modemon app.js
+nodemon app.js
 This will start the backend server.
 ```
 ## Start the Frontend:

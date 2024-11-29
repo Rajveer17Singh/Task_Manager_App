@@ -86,3 +86,6 @@ Once both the backend and frontend are running:
 Backend: The backend will be accessible at http://localhost:1000.
 Frontend: The frontend will be accessible at http://localhost:3000.
 You can now open your browser and start using the Task Manager Application.
+
+## Project Overview 
+
